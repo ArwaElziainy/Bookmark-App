@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::selection{
+    background-color: #FFF8D6;
+    color: #675D50 !important;
+}
+body{
+    background-image: url(../imgs/rVKi49.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'PT Sans Caption', sans-serif;
+    
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    position: relative;
+    width: fit-content;
+    color: #F3DEBA;
+    z-index: 1;
+}
+h1::before{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 35%;
+    background-color: #675D50;
+    box-sizing: border-box;
+    transition: .5s;
+    z-index: -1;
+}
+h1:hover::before{
+    height: 65%;
+}
+.overlay h2{
+    font-family: 'Righteous', cursive;
+    font-size: 25px;
+    background: -webkit-linear-gradient(left, #ABC4AA, #FFF8D6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.header{
+    border-bottom:2px dotted #675D50;
+}
+label{
+    color: #F3DEBA;
+}
+.form-control:focus{
+    border-color: #F3DEBA;
+    box-shadow: 0 0 0 0.25rem #F3DEBA;
+    outline: 0;
+}
+.submit{
+    color: #F3DEBA;
+    border: 1px solid #F3DEBA;
+}
+.submit:hover{
+    color: #675D50;
+    background-color: #F3DEBA;
+}
+.form-button{
+    width: fit-content;
+}
+section.form-group{
+    border-bottom: 2px dotted #675D50;
+}
+table.table th,td{
+    background-color: transparent !important;
+    color: #ABC4AA !important;
+}
+table{
+    border: 1px solid #675D50 !important;
+    border-radius: 20px !important;
+    border-collapse:unset;
+}
+.modal-content{
+    background-color: #675D50;
+}
+.modal-content h2.modal-title{
+    color: #FFF8D6 ;
+    font-size: 25px !important;
+}
+.modal-body{
+    color: #F3DEBA;
+}
+.modal-footer button{
+    color: #F3DEBA !important;
+    background-color: transparent;
+    border: 1px solid #F3DEBA;
+}
+.modal-footer button:hover{
+    background-color: #F3DEBA;
+    color: #675D50 !important;
+}
+h5{
+    color: #F3DEBA;
+}
